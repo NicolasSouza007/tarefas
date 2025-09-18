@@ -1,0 +1,121 @@
+.container {
+  width: 100%;
+}
+
+.content {
+  background-color: #0c0b0d;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contentForm {
+  max-width: 1024px;
+  width: 100%;
+  padding: 0 18px;
+  padding-bottom: 28px;
+  margin-top: 58px;
+}
+
+.title {
+  color: #f9e6e2;
+  margin-bottom: 8px;
+}
+
+.checkboxArea label {
+  margin-left: 8px;
+  color: #fff;
+}
+
+.checkbox {
+  width: 18px;
+  height: 18px;
+  margin: 14px 0;
+}
+
+.button {
+  width: 100%;
+  border: 0;
+  border-radius: 6px;
+  color: #fff;
+  background-color: #4a5a6b;
+  padding: 12px 0px;
+  font-size: 18px;
+}
+
+.task {
+  margin-bottom: 14px;
+  line-height: 150%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border: 1.5px solid #4a5a6b;
+  border-radius: 4px;
+  padding: 14px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.taskList h1 {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 14px;
+}
+
+/* Container do rótulo Público + botão de share */
+.tagContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* um em cada lado */
+  margin-bottom: 8px;
+}
+
+/* Container do texto da tarefa + botão lixeira */
+.taskContent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.taskContent p {
+  white-space: pre-wrap;
+}
+
+/* Tag estilo "Público" */
+.tag {
+  background-color: #4a5a6b;
+  padding: 2px 6px;
+  color: #fff;
+  border-radius: 4px;
+  font-size: 12px;
+}
+
+/* Botão de compartilhar */
+.shareButton {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.trashButton {
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  margin: 0 8px;
+}
+
+.linkButton {
+  text-decoration: none; /* remove o sublinhado */
+  color: inherit; /* mantém a cor do texto herdada */
+  cursor: pointer;
+  transition: transform 0.2s, background-color 0.2s;
+  padding: 6px 10px;
+  border-radius: 4px;
+}
